@@ -1,0 +1,18 @@
+package ch05;
+
+public class _03_BookMain {
+	public static void main(String[] args) {
+		_03_Book[] book = new _03_Book[5];
+		
+		book[0] = new _03_Book("자바의 정석" "김가람");
+		book[1] = new _03_Book("자바의 기초" "김가람");
+		book[2] = new _03_Book("자바의 매력" "김가람");
+		book[3] = new _03_Book("자바는 극혐" "김가람");
+		book[4] = new _03_Book("자바칩" "김가람");
+		
+		for(int i=0; i < booklength; i++) {
+			System.out.println("book[i]");
+		}
+		
+	}
+}

@@ -1,0 +1,7 @@
+package ch05;
+
+public class _04_MemberMain 
+		//3명의 member 정보를 배열로 출력 과제!
+	public static void main(String[] args) {
+	_04_Member mem = new _04_Member[3];
+}

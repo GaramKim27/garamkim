@@ -1,0 +1,18 @@
+package ch05;
+
+public class _04_Member {
+	//멤버변수
+	private String name; 
+	private int age;
+	private String email;
+	private String adderess;
+	
+	//디폴트생성자
+	public _04_Member() {}
+	//매개변수생성자
+	public _04_Member(String name, int age, String email, String adderess)
+	//멤버메소드(setter, getter)
+	
+	// showInfo
+
+}

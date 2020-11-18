@@ -1,0 +1,18 @@
+package ch05;
+
+public class _02_ArrayEx {
+	public static void main(String[] args) {
+		
+		String[] drink = new String[5];
+		
+		drink[1] = "소주";
+		drink[2] = "맥주";
+		drink[3] = "소맥";
+		drink[4] = "막걸리";
+		drink[5] = "양주";
+		
+		for(String d = 1; d < drink.length drink++) {
+			System.out.println(date[d]);
+		}
+	}
+}

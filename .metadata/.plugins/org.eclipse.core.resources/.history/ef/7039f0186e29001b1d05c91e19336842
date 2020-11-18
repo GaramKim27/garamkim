@@ -1,0 +1,14 @@
+package ch05;
+
+public class _03_BookMain {
+	public static void main(String[] args) {
+		
+		_03_Book bb1 = new _03_Book();
+		bb1.setBookName("자바의 정석");
+		bb1.setAuthor("김가람");
+		bb1.showBookInfo();
+		
+		_03_Book bb2 = new _03_Book("자바의기초", "김가람");
+		bb2.showBookInfo();
+	}
+}

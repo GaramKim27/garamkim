@@ -1,0 +1,14 @@
+package ch05;
+
+public class _03_BookMain {
+	public static void main(String[] args) {
+		_03_Book[] book = new _03_Book[5];
+		
+		book[0] = new _03_Book("자바의 정석" "김가람");
+		book[1] = ;
+		
+	}
+}
+
+
+_
