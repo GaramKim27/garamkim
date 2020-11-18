@@ -1,0 +1,14 @@
+package ch03;
+
+public class _03_WorkerMain {
+	public static void main(String[] args) {
+		
+		_03_Worker WorkerInfo = new _03_Worker();
+		
+		WorkerInfo.setSabun
+		WorkerInfo.setName
+		WorkerInfo.Salary
+		WorkerInfo.ema
+		
+	}
+}

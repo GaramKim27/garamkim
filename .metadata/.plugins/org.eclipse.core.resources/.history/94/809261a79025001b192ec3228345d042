@@ -1,0 +1,22 @@
+package ch02;
+
+public class _25_PrintEx {
+	public static void main(String[] args) {
+		
+		
+		// str의 길이 : str,length()
+		// str,chatAt(i) == "n"
+		// str 문자열 중에서 "n의 갯수 : count
+		
+		// 출력 : str의 길이 : 
+		// 문장에서 발견된 n의 갯수 : 
+		
+		String str = "no pain, no gain";
+		int count = 0;
+		
+		for(int i= )
+		
+		)
+	}
+	
+}

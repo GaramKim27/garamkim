@@ -1,0 +1,27 @@
+package ch03;
+
+public class _02_MemberMain {
+	// 멤버변수
+	/*
+	* String 'birthdate' String name; int age; String address;
+	*/
+
+	// 생성자
+
+	// 멈버메서드
+			
+	String BirthDate;
+	String Name;
+	int Age;
+	String Address;
+
+	public void printInfo() {
+		System.out.println("생년월일 : " + BirthDate);
+		System.out.println("이름 : " + Name);
+		System.out.println("나이 : " + Age);
+		System.out.println("주소 : " + Address);
+		
+
+	}
+
+}

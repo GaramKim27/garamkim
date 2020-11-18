@@ -1,0 +1,18 @@
+package ch04;
+
+public class _03_MemberMain {
+	public static void main(String[] args) {
+		
+		_03_MemberInfo member = new _03_MemberInfo() {
+			
+		}
+			
+		member.setName("김가람");
+		member.setAge(27);
+		member.setEmail("garam@");
+			
+		member.printInfo();
+		
+		
+	}
+}

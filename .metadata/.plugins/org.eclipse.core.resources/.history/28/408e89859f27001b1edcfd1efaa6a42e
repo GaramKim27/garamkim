@@ -1,0 +1,16 @@
+package report;
+
+public class 연습 {
+	public static void main(String[] args) {
+	
+		int dan;
+		int time;
+		System.out.println("        구구단을외자~");
+		System.out.println("==============================");
+		for(dan = 2; dan<=9; dan++) {
+			System.out.println();
+		}
+	}
+	
+
+}

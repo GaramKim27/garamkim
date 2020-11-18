@@ -1,0 +1,27 @@
+package ch02;
+
+import java.util.Scanner;
+
+public class _15_DoWhileEx {
+	public static void main(String[] args) {
+		//월입력[1~12] : 입력월출력
+		//범위초과(12보다 크거나, 1보다 작으면) +> ~월은 잘못된 월입니다. 다시입력하세요.)
+		int month = 0;
+		
+		Scanner d = new Scanner(System.in); 
+		month = d.nextInt();
+		System.out.println("월을 입력하세요");
+		
+		if (month < 1 || month > 12) {
+			System.out.println(month + "월은 잘못된 월입니다. 다시 입력하세요.");
+			
+		}else {
+		do 
+			month = 0;	
+		} while(month != 12);
+		System.out.println(month +"월은 " + "월 입니다.");
+		d.close();
+	
+	}	
+
+}

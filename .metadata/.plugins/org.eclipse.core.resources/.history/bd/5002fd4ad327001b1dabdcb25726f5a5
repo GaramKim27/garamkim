@@ -1,0 +1,35 @@
+package ch03;
+
+public class _02_MemberInfo {
+	public static void main(String[] args) {
+		// static : 인스턴스 생성하지않고 바로 메서드 사용가능
+		_02_MemberMain MemberInfo = new _02_MemberMain();
+		
+		MemberInfo.BirthDate = "1994년 2월 27일";
+		MemberInfo.Name = "김가람";
+		MemberInfo.Age = 27;
+		MemberInfo.Address = "인천";
+		
+		MemberInfo.printInfo();
+	}
+		
+		// 멤버변수
+			/*
+			* String 'birthdate' String name; int age; String address;
+			 */
+
+				// 생성자
+
+				// 멈버메서드
+		
+		
+		
+
+	
+		
+	
+
+	
+		
+	
+}

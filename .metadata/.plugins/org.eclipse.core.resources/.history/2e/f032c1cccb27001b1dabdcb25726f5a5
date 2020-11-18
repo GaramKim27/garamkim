@@ -1,0 +1,18 @@
+package ch03;
+
+public class _01_StudentMain {
+	public static void main(String[] args) {
+		
+	}
+	int studentID; //학번
+	String studentName; //이름
+	int age;
+	String email;
+	
+	public void printInfo() {
+		System.out.println("학번 : " + studentID);
+		System.out.println("이름 : " + studentName);
+		System.out.println("나이 : " + age);
+		System.out.println("이메일 : "+ email);
+		
+}

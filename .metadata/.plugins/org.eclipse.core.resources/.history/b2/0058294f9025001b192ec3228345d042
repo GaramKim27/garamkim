@@ -1,0 +1,13 @@
+package ch02;
+
+public class _25_PrintEx {
+	public static void main(String[] args) {
+		
+		String str = "no pain, no gain";
+		int count = 0;
+		
+		// str의 길이 : str,length()
+		// str 문자열 중에서 "n의 갯수 : count
+	}
+	
+}

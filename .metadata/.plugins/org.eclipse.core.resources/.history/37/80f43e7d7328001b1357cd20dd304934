@@ -1,0 +1,15 @@
+package test;
+
+public class _07_MemberMain {
+	public static void main(String[] args) {
+
+	_07_MemberInfo memberInfo = new _07_MemberInfo () ;
+
+	memberInfo.setJumin("19940227");
+	memberInfo.setName("김가람");
+	memberInfo.setJob("학생");
+	memberInfo.setHobby("운동");
+	memberInfo.setSaraly(100000);
+
+	}
+}

@@ -1,0 +1,29 @@
+package ch02;
+
+public class _11_WhileEx {
+	public static void main(String[] args) {
+		/*
+		 * 반복문 : 조건식이 참인 동안 반복하라(	while, for문)
+		 * 	      초기값 -> 조건식 -> 증감식
+		 * 
+		 * 초기값
+		 * while(조건식) {
+		 * 	     수행문1;
+		 *    수행문2;...
+		 *    증감식;
+		 *}
+		 *수행문3;    
+		 *    
+		 */
+		
+		//1~10까지 출력 (1 2 3 ...10)
+		
+		int num = 1;
+		
+		while(num <= 10){
+			System.out.print(num + " " );
+			num++;
+		}
+		
+	}
+}

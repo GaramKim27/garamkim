@@ -1,0 +1,14 @@
+package ch04;
+
+public class _01_CalMain {
+	public static void main(String[] args) {
+	
+		double num1 = 10.0; 
+		double num2 = 5.0;
+		
+		_01_CalculatorEx calInfo = new _01_CalculatorEx();
+		
+		System.out.println(num1 + " + " + num2 + " = " + calInfo.add(num1, num2));
+	
+	}
+}

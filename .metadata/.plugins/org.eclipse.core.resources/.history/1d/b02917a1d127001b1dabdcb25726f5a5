@@ -1,0 +1,28 @@
+package ch03;
+
+public class _02_MemberInfo {
+	public static void main(String[] args) {
+		
+		_02_Membert MemberInfo = new _02_Membert();
+		
+		MemberInfo.BirthDate = "1994년 2월 27일";
+		MemberInfo.Name = "김가람";
+		MemberInfo.Age = 27;
+		MemberInfo.Address = "인천";
+		
+		MemberInfo.printInfo();
+		
+		
+		
+		
+		
+	}
+
+	
+		
+	
+
+	
+		
+	
+}

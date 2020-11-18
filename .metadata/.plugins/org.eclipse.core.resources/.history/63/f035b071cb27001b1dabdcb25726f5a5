@@ -1,0 +1,13 @@
+package ch03;
+
+public class _01_studentInfo {
+	public static void main(String[] args) {
+		
+		_01_StudentMain info = new _01_StudentMain();
+		
+		info.studentID = 201216011;
+		info.studentName = "김가람";
+		info.age = 27;
+		info.email = "garam6500@naver.com";
+	}
+}

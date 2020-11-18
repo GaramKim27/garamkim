@@ -1,0 +1,17 @@
+package report;
+
+public class _01_02_Report {
+	public static void main(String[] args) {
+		
+		int a;
+		int b;
+		
+		for(b = 1; b <= 5; b++ ) {
+			for(a = 1; a <= b; a++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+	}
+}

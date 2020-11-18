@@ -1,0 +1,16 @@
+package ch02;
+
+
+
+public class 연습 {
+	public static void main(String[] args) {
+		int dan = 3;
+		int i = 1;
+		int a = 0;
+		System.out.println("구구단");
+		System.out.println("==========");
+		
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package ch02;
+
+public class _18_ForEx {
+	public static void main(String[] args) {
+		/*
+		 * 반복문
+		 * 
+		 *  for문의 기본구조
+		 *  
+		 *  for(초기값; 조건식; 증감식;) {
+		 * 
+		 * 		수행문장1;
+		 * 		수행문장2;
+		 * }
+		 * 
+		 */	
+		
+		// 1~10까지의 합 : sum
+		// num=?, sum=?
+		int num;
+		int sum;
+		for(num = 1; num <11; num++) {
+			System.out.println(num + "+" + sum );
+		}
+		
+	}
+}

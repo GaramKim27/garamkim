@@ -1,0 +1,20 @@
+package test;
+
+public class _08_CalInfo {
+		
+	int num1 = 10;
+	int num2 = 10;
+	
+	public int add(int num1, int num2){
+		int result = num1 + num2;
+		return  result;
+	}
+	public int avg(int num1, int num2){
+		int result = (num1 + num2)/2;
+		return  result;
+	}
+
+	System.out.println("두수의 합은 : " + (num1 + num2));
+	System.out.println("두수의 평균은 : " + (num1 + num2)/2);
+	}
+}

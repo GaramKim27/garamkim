@@ -1,0 +1,17 @@
+package ch02;
+
+public class _12_WhileEx {
+	public static void main(String[] args) {
+		
+		//1.초기값
+		int dan = 2;
+		int i = 0;
+		//2.조건식
+		while(dan < 9) {
+		//3.증감식
+			i *= dan;
+			i++;
+			System.out.println(dan + i );
+		}
+	}
+}

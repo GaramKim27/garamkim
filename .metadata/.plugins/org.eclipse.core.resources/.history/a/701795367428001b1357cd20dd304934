@@ -1,0 +1,12 @@
+package test;
+
+public class _08_CalMain {	
+	public static void main(String[] args) {
+
+	_08_CalInfo printInfo = new _08_CalInfo {
+	
+	printInfo.getaddR(num1 + num2);
+	printInfo.getavgR((num1 + num2)/2);
+
+	}
+}

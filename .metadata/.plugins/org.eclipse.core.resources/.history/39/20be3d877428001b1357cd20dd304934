@@ -1,0 +1,15 @@
+package test;
+
+public class _08_CalMain {	
+	public static void main(String[] args) {
+		
+	int num1 = 20;
+	int num2 = 10;
+
+	_08_CalInfo printInfo = new _08_CalInfo();
+	
+	printInfo.getTotal(num1 + num2);
+	printInfo.getAvg((num1 + num2)/2);
+
+	}
+}

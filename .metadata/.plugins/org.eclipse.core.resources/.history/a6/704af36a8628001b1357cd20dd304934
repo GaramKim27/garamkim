@@ -1,0 +1,26 @@
+package ch04;
+
+import java.util.Scanner;
+
+public class _02_SungjukMain {
+	public static void main(String[] args) {
+		
+		//인스턴스생성
+		Scanner d = new Scanner(print.in);
+		
+		
+		System.out.println("*** 성적출력  ***");
+		
+		
+		
+		System.out.println("국어점수 : ");
+		System.out.println("영어점수 : ");
+		System.out.println("수학점수 : ");
+		
+		// 국영수 합계호출 및 출력
+		int total = ;
+		
+		// 국여수 평균호출 및 출력
+		double avg  = ;
+	}
+}

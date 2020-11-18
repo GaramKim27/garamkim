@@ -1,0 +1,34 @@
+package ch02;
+
+public class _07_SwitchCaseEx {
+	public static void main(String[] args) {
+		
+		/*
+		 * Switch(조건){
+		 * 	case 값1 : 수행문1;
+		 * 			  break;
+		 *  case 값2 : 수행문2;
+		 * 			  break;
+		 *  case 값3 : 수행문3;
+		 * 			  break;
+		 *  default : 수행문4;
+		 */
+		
+		// ranking에 따른 메달 색갈 출력
+		String medal= "참가상";
+		int ranking = 0;
+		
+		switch(medal) {
+		case "금메달" : ranking = 1;
+		break;
+		case "은메달" : ranking = 2;
+		break;
+		case "동메달" : ranking = 3;
+		break;
+		default : ranking = 4;
+		System.out.print("참가상");
+		}
+		System.out.print("입니다.");
+		
+	}
+}

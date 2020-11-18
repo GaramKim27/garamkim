@@ -1,0 +1,7 @@
+package ch03;
+
+public class _03_WorkerMain {
+	public static void main(String[] args) {
+		
+	}
+}

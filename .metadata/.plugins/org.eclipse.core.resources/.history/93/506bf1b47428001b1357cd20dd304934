@@ -1,0 +1,19 @@
+package test;
+
+public class _08_CalMain {	
+	public static void main(String[] args) {
+		
+	_08_CalInfo printInfo = new _08_CalInfo();
+
+	int num1 = 20;
+	int num2 = 10;
+
+	
+	System.out.println("두수의 합은 : " + printInfo.getTotal(num1,  num2));
+	System.out.println("두수의 합은 : " + printInfo.getAvg(num1,  num2));
+	
+	
+	
+
+	}
+}

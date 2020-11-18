@@ -1,0 +1,25 @@
+package test;
+
+public class _09_MemberMain {
+
+	public void static void main(String[] args) {
+
+		_09_MemberInfo mm1 = new _09_MemberInfo ();
+		mm1.setJumin("940227-1");
+		mm1.setName("김가람");
+		mm1.setAge(27);
+		mm1.setSalary("500");
+		mm1.printMember();
+
+		System.out.println("===========");
+
+		
+		_09_MemberInfo mm2 = new _09_MemberInfo ("971228-2", "이수하", 24, 500);
+		mm2.printMember();
+		}
+}
+		
+
+	
+
+	

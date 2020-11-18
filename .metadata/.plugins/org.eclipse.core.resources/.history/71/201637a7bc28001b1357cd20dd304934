@@ -1,0 +1,18 @@
+package ch04;
+
+public class 연습Info {
+	private String studentID;
+	private String studentName;
+	private int score;
+	
+	public 연습Info() {
+		System.out.println("디폴트생성자");
+	}
+	
+	public 연습Info(String studentID, studentName, int score) {
+		
+	}
+	
+	
+
+}

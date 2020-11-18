@@ -1,0 +1,33 @@
+package test;
+
+public class _07_MemberInfo {
+	private String jumin; 
+	private String name; 
+	private String job;
+	private String hobby;
+	private int salary; 
+
+	public void setJumin(String jumin) {
+		this.jumin = jumin;
+	}
+	public void setName(String name) {
+		this.name  = name; 
+	}
+ 	public void setJob(String job){
+		this.job = job;
+	}
+	public void setHobby(String hobby){
+		this.hobby = hobby;
+	}
+	public void setSaraly(int salary) {
+		this.salary = salary;
+	}
+	
+	public void memberInfo() {
+		System.out.println("주민번호: " + jumin);
+		System.out.println("이름 : " + name);
+		System.out.println("직업 : " + job);
+		System.out.println("취미 : " + hobby);
+		System.out.println("급여 : " + salary);
+	}
+}

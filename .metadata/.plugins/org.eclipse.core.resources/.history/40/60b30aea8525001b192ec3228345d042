@@ -1,0 +1,28 @@
+package ch02;
+
+import java.util.Scanner;
+
+public class 연습 {
+	public static void main(String[] args) {
+		int month = 0;
+		
+		System.out.println("월을 입력하세요.");
+		
+		Scanner scan = new Scanner(System.in);
+		
+		do {
+			month=scan.nextInt();
+			if(month>12 || month<1) {
+				System.out.println("월은 잘못된 월입니다.");
+				System.out.println();
+				System.out.println("다시 월을 입력하세요");
+			}
+		}while(month>12 || month<1);
+		
+		System.out.println(month + "월입니다.");
+		
+		scan.close();
+		
+	}
+
+}

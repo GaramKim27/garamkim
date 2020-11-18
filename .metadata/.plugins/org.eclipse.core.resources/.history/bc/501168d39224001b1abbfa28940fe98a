@@ -1,0 +1,24 @@
+package ch02;
+
+public class _06_IfEx {
+	public static void main(String[] args) {
+		/*
+		 * 입장료
+		 * 
+		 * age : 나이 입력받는다
+		 * charge : 요금
+		 * grade : 단계
+		 * 
+		 * 1~8세 : grade가 "미취학아동", charge : 1000
+		 * ~13세 : grade가 "초등학생", charge : 2000
+		 * ~19세 : grade가 "청소년", charge : 3000
+		 * ~64세 : grade가 "일반인", ADULT_CHARGE : 4000선언 ==> charge에 대입
+		 * 65세 이상인경우 : "경로우대", ADULT_CHARGE의 20%할인 ==> charge에 대입
+		 * 
+		 * 출력형식 ==> 나이 : 7세이며, 미취학아동, 입장료 : 1000원
+		 * 
+		 */
+		
+		
+	}
+}

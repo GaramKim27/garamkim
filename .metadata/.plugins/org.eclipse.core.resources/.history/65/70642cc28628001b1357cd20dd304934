@@ -1,0 +1,11 @@
+package ch04;
+
+public class _02_Sungjuk {
+	//국영수 합계 
+	getTotal() {
+	
+	//국영수 형균
+	getToAvg() {
+		
+	}
+}

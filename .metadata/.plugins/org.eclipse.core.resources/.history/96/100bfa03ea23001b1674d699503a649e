@@ -1,0 +1,11 @@
+package ch02;
+
+public class _03_IfEx {
+	public static void main(String[] args) {
+		//score가 60점 이상이면 "합격" 60점미만이면 "불합격" 40점미만이면 "과락"을 result3 변수에 출력
+		
+		
+		
+	}
+
+}

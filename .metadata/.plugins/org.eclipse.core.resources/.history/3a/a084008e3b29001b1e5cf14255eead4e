@@ -1,0 +1,67 @@
+package test;
+
+public class _09_MemberInfo {
+
+	private String jumin; 
+	private String name;
+	private int age;
+	private int salary;
+
+	public _09_MemberInfo (){
+		System.out.println("기본생성자");
+	}
+
+	public _09_MemberInfo(String jumin, String name, int age, int salary) {
+		System.out.println("매개변수생성자");
+		this.jumin = jumin; 
+		this.name = name; 	
+		this.age = age; 
+		this.salary = salary; 	
+	}
+
+	public void setJumin(String jumin) {
+		this.jumin = jumin;
+	}
+	public String getJumin() {
+		return jumin;
+	} 
+
+	public void setName(String name) {
+		this.name  = name; 
+	}
+	public String getName() {
+		return name;
+	} 
+	
+	public void setAge(int age) {
+		if(age <= 0) {
+			System.out.println("나이는 양수로 입력하세요");
+		} else {	
+		}
+			
+		this.age  = age; 
+	}
+	public int getAge() {
+		if(age <= 0) {
+			System.out.println("나이는 양수로 입력하세요");
+		} else {	
+		}
+		return age;
+	} 
+
+	public void setSalary(int salary) {
+		this.salary  = salary; 
+	}
+	public int getSalary() {
+		return salary;
+	} 
+
+	public void printMember() {
+		System.out.println("주민번호 : " + getJumin());
+		System.out.println("이름 : " + getName());
+		System.out.println("나이 : " + getAge());
+		System.out.println("급여 : " + getSalary());
+	}
+}
+
+

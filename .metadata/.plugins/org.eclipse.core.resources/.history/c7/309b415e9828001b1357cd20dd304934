@@ -1,0 +1,35 @@
+package ch04;
+
+public class _03_MemberInfo {
+	// 멤버변수
+	private String name;
+	private int age;
+	private String email;
+	
+	// 디폴트생성자 
+	// 생성자이름은 클래스이름과같고, 반환값이 없다.
+	public _03_MemberInfo() {
+		System.out.println("디폴트생성자");
+	}
+	
+	//멤버메서드
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAge(int age) {
+		if(age < 0) {
+			System.out.println("나이는 양수로 입력하세요");
+			return; //함수를 종료하며, 아래문장을 수행하지않는다.
+		}
+			this.age = age;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public void printInfo(){
+		System.out.println("이름 : " + name);
+		System.out.println("나이 : " + age);
+		System.out.println("이메일 : " + email);	
+	}
+}

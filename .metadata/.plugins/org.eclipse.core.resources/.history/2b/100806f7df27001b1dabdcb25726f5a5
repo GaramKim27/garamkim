@@ -1,0 +1,22 @@
+package ch03;
+
+public class _03_Worker {
+	//멤버변수 - 속성
+	private String sabun; //사번
+	private String name; //이름
+	private int salary; //급여
+	private String email; //이메일
+	
+	public void setSabun(String sabun) {
+		this.sabun = sabun;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setSalary(String salary) {
+		this.salary = salary;
+	}
+	
+	
+	//멤버메서드 - 기능
+}

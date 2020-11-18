@@ -1,0 +1,24 @@
+package ch04;
+
+public class _04_StudentInfo {
+	//멤버변수
+	private String studentID;
+	private String studentName;
+	private int score;
+	//디폴트 생성자
+	public _04_StudentInfo() {
+		
+	}
+	//매개변수 생성자
+	public _04_StudentInfo(String studentID, String studentName, int score) {
+		this.studentID = studentID;
+		this.studentName = studentName;
+		this.score = score;
+	}
+	//멤버메서드
+	//setter
+	
+	//출력
+	
+	printInfo();
+}

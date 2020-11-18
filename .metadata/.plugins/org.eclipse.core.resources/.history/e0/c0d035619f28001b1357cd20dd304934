@@ -1,0 +1,23 @@
+package ch04;
+
+public class _03_MemberMain {
+	public static void main(String[] args) {
+		
+		_03_MemberInfo mm1 = new _03_MemberInfo(); // 디폴트 생성자를 호출
+		
+		// 방법1. setter를 이용한 값설정(따로따로 초기화)
+		mm1.setName("김가람");
+		mm1.setAge(27);
+		mm1.setEmail("garam@naver.com");
+			
+		mm1.printInfo();
+		
+		System.out.println("-----------------");
+		
+		//방법2. 매개변수 생성자를 이용한 값설정(한번에 초기화)
+		
+		_03_MemberInfo mm2 = new _03_MemberInfo("이수하", 24, "suhaaa");
+			
+		mm2.printInfo();
+	}
+}

@@ -1,0 +1,17 @@
+package ch04;
+
+import java.util.Scanner;
+
+public class _03_MemberMain {
+	public static void main(String[] args) {
+		
+		_03_MemberInfo printInfo = new printInfo() {
+			
+			Scanner info = new Scanner(System.in);
+			
+			info.setName("김가람");
+			info.setAge("27");
+			info.setEmail("garam@");
+		}
+	}
+}

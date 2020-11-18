@@ -1,0 +1,7 @@
+package ch04;
+
+public class _03_MemberMain {
+	public static void main(String[] args) {
+		
+	}
+}

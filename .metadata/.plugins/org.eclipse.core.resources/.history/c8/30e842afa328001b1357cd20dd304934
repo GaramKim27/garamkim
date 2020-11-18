@@ -1,0 +1,28 @@
+package ch04;
+
+public class _04_StudentMain {
+	
+	//방법1. 디폴트 생성자 - setter로 값설정
+	
+	//방법2. 매개변수 생성자로 값 설정
+	public static void main(String[] args) {
+		_04_StudentInfo ss1 = new _04_StudentInfo();
+		
+		ss1.setStudentID("2012-16011");
+		ss1.setStudentName("김가람");
+		ss1.setScore(13);
+		ss1.printInfo();
+		
+		System.out.println("=============");
+		
+		_04_StudentInfo ss2 = new _04_StudentInfo("2016-510", "이수하", 16 );
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
