@@ -14,7 +14,7 @@ public class _02_Sungjuk {
 		this.engNum = engNum;
 	}
 	public void setMathNum(int mathNum) {
-		this.matNum = mathNum;
+		this.mathNum = mathNum;
 	}
 	
 	public int getTotal(int korNum, int engNum,  int mathNum) {
