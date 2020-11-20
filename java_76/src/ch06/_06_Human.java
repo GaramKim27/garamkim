@@ -2,7 +2,8 @@ package ch06;
 
 //자식클래스
 public class _06_Human extends _06_Animal {
-	
+	// 디폴트 생성자
+	public _06_Human() {}
 	 //(생략)
 	@Override
 	public void move() {

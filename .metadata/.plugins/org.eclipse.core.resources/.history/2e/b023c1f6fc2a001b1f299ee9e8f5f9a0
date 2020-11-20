@@ -1,0 +1,21 @@
+package ch06;
+
+public class _07_Main {
+	public static void main(String[] args) {
+		
+		//부모클래스 참조변수 = new 부모클래스
+		_07_Ainmal main = new _07_Ainmal();
+		main.move(); // 동물이 움직입니다
+		
+		//자식클래스 참조변수 = new 자식클래스
+		_07_Human main1 = new _07_Human();
+		main1.move(); //사람이 움직입니다.
+		
+		//다형성을 적용하여 인스턴스 생성
+		//부모클래스 참조변수 = new 자식클래스
+		_07_Ainmal main2 = new _07_Human();
+		main2.move(); //사람이 움직입니다.
+		
+		//메서드 호출
+	}
+}

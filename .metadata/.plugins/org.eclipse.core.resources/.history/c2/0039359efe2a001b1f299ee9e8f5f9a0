@@ -1,0 +1,36 @@
+package ch06;
+
+public class _07_Main {
+	public static void main(String[] args) {
+		
+		//부모클래스 참조변수 = new 부모클래스
+		_07_Ainmal main = new _07_Ainmal() 
+		animal.move;
+		
+		
+		//}
+		
+		//자식클래스 참조변수 = new 자식클래스
+		_07_Human main1 = new _07_Human();
+		main1.move(); //사람이 움직입니다.
+		/*
+		 * 다형성 : 부모클래스 참조변수 = new 자식클래스();
+		 * - 가상메서드 원리에 따라 animal.move() 메소드가 호출하는 메서드는 실제 인스턴스의 메서드이다.
+		 */
+		
+		
+		//다형성을 적용하여 인스턴스 생성
+		//부모클래스 참조변수 = new 자식클래스
+		_07_Ainmal main2 = new _07_Human();
+		main2.move(); //사람이 움직입니다.
+		
+		
+		_07_Ainmal tiger = new _07_Tiger();
+		tiger.move();
+		//메서드 호출
+		
+		_07_Ainmal eagle = new _07_Eagle();
+		eagle.move(); /
+		
+	}
+}

@@ -1,0 +1,13 @@
+package ch06;
+
+public class _07_Main {
+	
+	//다형성
+	public static void main(String[] args) {
+		//인스턴스 생성
+		_07_Main xx = new _07_Main();
+		
+		//메서드 생성 
+		xx.moveAnimal(new _07_Human());
+	}
+}
