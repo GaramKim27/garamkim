@@ -1,0 +1,10 @@
+package ch06;
+
+public class _06_Main {
+	public static void main(String[] args) {
+		
+		_06_Human hh = new _06_Human();
+		human.move(); //오버라이드 메서드이므로  자식메소드 호출
+		human.readBook();
+	}
+}

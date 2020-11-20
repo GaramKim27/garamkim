@@ -1,0 +1,27 @@
+package test;
+	// 자식클래스
+	public class _11_ShinhanBank extends _11_Bank {
+
+	//a멤벼변수
+	private String event; //값 : "금리인하" 
+
+	// 디폴트생성자
+	public _11_Bank () {}
+	//매개변수 생성자에서 부모생성자로 값 넘기고 , 매개변수로 값전달
+	public _11_Bank (String bankName, String acco, String deposit, int withdraw,  int balance, int rate){
+	super(bankName, acco, deposit, withdraw, balance, )
+	this.event=event;
+	}
+	//멤버메서드 set get
+	public void setEvent;   (String event)   {
+		this.event; ;    = event; 
+	}
+	public String getEvent;   {
+		return event;   
+	}
+	//출력 : 재정의
+	public void printInfo(){
+		super.printInfo();
+			System.out.println(event + " : 금리인하");
+	}
+}

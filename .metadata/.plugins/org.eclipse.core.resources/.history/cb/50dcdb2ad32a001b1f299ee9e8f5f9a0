@@ -1,0 +1,23 @@
+package test;
+	// 자식클래스
+	public class _11_WooriBank extends _11_Bank{
+
+	//a멤벼변수
+	private String vipMember; // 값 "vip"
+
+	// 디폴트생성자
+	public _11_WooriBank () {}
+
+	//멤버메서드 set,get
+	public void setVipMember (String vipMember)   {
+		this.vipMember = vipMember; 
+	}
+	public String getVipMember(){
+		return  vipMember;
+	}
+	//출력 : 재정의
+	public  void printInfo(){
+		super.printInfo();
+			System.out.println(vipMember+ " : vip");
+	}
+}
