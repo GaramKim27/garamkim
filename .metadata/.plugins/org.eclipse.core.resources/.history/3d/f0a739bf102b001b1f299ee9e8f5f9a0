@@ -13,21 +13,13 @@ public class _06_Main {
 	public void moveAnimal(_06_Animal animal) { //_06_Animal animal = new Human();
 		animal.move(); //사람이 움직입니다.	대표자!!
 	
+		_06_Main main = new _06_Main();
 		
 	
-		
-		if(animal instanceof _06_Tiger) {
-			_06_Tiger tiger = (_06_Tiger) animal;
-			tiger.hunting();
+	public void main(_06_Animal animal2) {
+		if(animal2 instanceof _06_Human) {
+			_06_Human animal2 = (_06_Human) animal2
 		}
-		else if(animal instanceof _06_Eagle) {
-			_06_Eagle eagle = (_06_Eagle) animal;
-			eagle.flying();
-		}else if(animal instanceof _06_Human) {
-			_06_Human human = (_06_Human) animal;
-			human.readBook();
-		}
-		
 	}
 	
 	
@@ -41,7 +33,7 @@ public class _06_Main {
 //		eagle.move(); //독수리가 하늘을 납니다.
 //	}
 	
-
+}
 
 /*
  * 자식클래스 참조변수명 = new 자식클래스();

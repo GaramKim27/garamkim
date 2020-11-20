@@ -23,11 +23,7 @@ public class _06_Main {
 		else if(animal instanceof _06_Eagle) {
 			_06_Eagle eagle = (_06_Eagle) animal;
 			eagle.flying();
-		}else if(animal instanceof _06_Human) {
-			_06_Human human = (_06_Human) animal;
-			human.readBook();
 		}
-		
 	}
 	
 	

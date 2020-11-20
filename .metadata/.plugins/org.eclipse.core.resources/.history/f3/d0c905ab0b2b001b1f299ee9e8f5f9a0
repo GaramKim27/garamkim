@@ -19,7 +19,6 @@ public class _07_Main {
 		 * 		하나의 참조변수(부모)로부터 여러가지타입의 객체(자식)을 참조할수있는것.
 		 * 		즉 부모타입의 참조변수로 자식타입의 객체를 다룰 수 있는것이 다형성
 		 * 		상속이 전제조건이다.
-		 * 		매개변수에 다형성을 적용
 		 * 
 		 * 문법 : 부모타입 참조변수 = new 자식타입 ();
 		 * 		큰타입                = 작은타입
@@ -31,25 +30,17 @@ public class _07_Main {
 		 *- 부모참조변수로 접근시, 부모타입 클래스의 멤버가 힙메모리에 생성된 객체에 존재해야 한다.
 		 * 만약 존재하지 않으면 에러가 발생한다.(예, readBook() )
 		 * 따라서 자식객체에 접근하기 위해서 다운캐스팅(다운형변환)한다 
-		 * 상위클래스로는 묵시적으로 형변환되지만, 하위클래스로 형변환 할 때는 명시적으로 형변환한다.
 		 * 즉, 상위클래스로 형변환 되었던 하위클래스를 다시 원래 자료형으로 형변환 하는것을 다운캐스팅이라고 한다.
 		 * -다운캐스팅 (형변환) : 작은타입= (작은타입)큰타입; // 부모가 큰타입, 자식이 작은타입.
 		 *
 		 *    부모클래스 참조변수 = new 자식클래스();
 		 * - 가상메서드 원리에 따라 move() 메서드(오바라이딩메서드)는 힙메모리에 존재하는 실제 인스턴스의 메서드이다.
 		 * 오바라이딩시 자식메서드가 호출된다.
-		 * -장점 : 모든 클래스를 부모 자료형 하나로 쉽게 관리한다.코드가 간결해진다. 중요!!!!
+		 * -장점 : 모든 클래스를 부모 자료형 하나로 쉽게 관리한다.코드가 간결해진다.
 		 * 		특히, 매개변수를 부모자료형 하나로 관히하면 코드가 간결해진다.
 		 * 		상위클래스에서 공통부분의 메서드를 제공하고, 하위클래스에서 추가메서드를 구현하면 코드양도 줄어들고 유지보수도 간편하다.
 		 *
-		 * if(부모참조변수 instanceof 자식클래스) {
-		 *    자식클래스 참조변수 = (자식클래스)부모참조변수;
-		 * }
 		 * 
-		 *   Animal hAnimal = new Human();
-		 *   if(hAnimal instanceof Human){
-		 *   	Human Human = (Human)hAnumal;
-		 *   	human.readBook; 
 		 */
 		
 		
@@ -65,21 +56,17 @@ public class _07_Main {
 			main3.readBook(); //사람이 독서를 한다.
 		}
 		
-		_07_Ainmal animal3 = new _07_Tiger();
-		animal3.move(); //호랑이가 네발로 움직인다
+		_07_Ainmal tiger = new _07_Tiger();
+		tiger.move(); //호랑이가 네발로 움직인다
 		
-		if(animal3 instanceof _07_Tiger) {
-			_07_Tiger tiger2 = (_07_Tiger) animal3;
-			tiger2.hunting(); //호랑이가 사냥을합니다.
+		if(tiger instanceof _07_Tiger) {
+			_07_Tiger tiger2 = (_07_Tiger) tiger;
+			tiger2.hunting();
 		}
 		
-		_07_Ainmal animal4 = new _07_Eagle();
-		animal4.move(); //독수리가 하늘을 납니다.
 		
-		if(animal4 instanceof _07_Eagle) {
-			_07_Eagle eagle2 = (_07_Eagle) animal4;
-			eagle2.flying();
-		} // if
+		_07_Ainmal eagle = new _07_Eagle();
+		eagle.move(); //독수리가 하늘을 납니다.
 		
 	}
 }
